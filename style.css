@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.top_nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 100px;
+  background-color: #f3f3f3;
+}
+
+.top_nav .my_info .mail {
+  margin-left: 30px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.nav .nav_menu {
+  display: flex;
+  margin: 0 25px;
+}
+
+.nav .nav_menu li {
+  display: inline;
+  margin: 0 5px;
+}
+.nav .nav_logo {
+  width: 70px;
+  margin: 0 25px;
+  padding: 25px 0;
+}
+
+.center {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.center .center_box {
+  display: flex;
+  flex-direction: column;
+}
+.center .center_box h1 {
+  font-size: 36px;
+  padding: 15px 0;
+}
+.center .center_box .center_bottom_info {
+  padding-bottom: 15px;
+}
+.center .center_box .center_bottom_SHOP {
+  display: flex;
+  justify-content: center;
+}
+.center .center_box .center_bottom_SHOP a {
+  padding: 15px 30px;
+  background-color: #818a91;
+  color: white;
+}
