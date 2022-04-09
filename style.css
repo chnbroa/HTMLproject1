@@ -2,10 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+ 
   font-family: "Roboto", sans-serif;
-
-
 }
 
 ul {
@@ -150,6 +148,7 @@ a:hover {
   width: 100%;
   height: 40vh;
 }
+
 .transparency_box_background .box_info {
   display: flex;
   flex-direction: column;
