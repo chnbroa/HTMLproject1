@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   font-family: "Roboto", sans-serif;
 }
 
@@ -131,7 +130,7 @@ a:hover {
 }
 .new_arrivals .bar{
   border: solid 1px black;
-  width: 5%;
+  width: 10%;
   margin:30px;
 }
 
@@ -184,5 +183,13 @@ a:hover {
 .foot
 {
   height: 1000px;
+}
 
+@media screen and (max-width: 768px) {
+  .bottom{
+    flex-direction:column;
+  }
+  .bottom div{
+    margin: 0 50px;
+  }
 }
